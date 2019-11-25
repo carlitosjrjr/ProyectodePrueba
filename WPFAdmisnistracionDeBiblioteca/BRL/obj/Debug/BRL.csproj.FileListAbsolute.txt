@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\BRL.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\BRL.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\Common.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\DAL.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\Common.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\bin\Debug\DAL.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\obj\Debug\BRL.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\obj\Debug\BRL.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\obj\Debug\BRL.csproj.CopyComplete
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\obj\Debug\BRL.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\BRL\obj\Debug\BRL.pdb

@@ -1,0 +1,52 @@
+﻿<Window x:Class="WPFAdmisnistracionDeBiblioteca.Usuario.WinLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAdmisnistracionDeBiblioteca.Usuario"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="WinLogin" Height="510" Width="350">
+    <Grid>
+        <StackPanel>
+            <Grid Background="#861200" Height="50" VerticalAlignment="Top">
+                <TextBlock FontSize="24" Foreground="White" FontWeight="Bold" Margin="0 10 0 0 " VerticalAlignment="Center"  HorizontalAlignment="Center">Acceso de Usuario</TextBlock>
+                <Button ToolTip="Cerrar Ventana" x:Name="btnClose" Width="30" Height="50" Click="btnClose_Click" HorizontalAlignment="Right" Padding="0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
+                    <materialDesign:PackIcon Foreground="White" Kind="Close" Width="30" Height="30"/>
+                </Button>
+
+            </Grid>
+            <Ellipse Height="100"  Width="120"  Margin="25" >
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/./Imagenes/user.jpg" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Account" Margin="5" VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.IsFloating="True" CharacterCasing="Lower"  materialDesign:HintAssist.Hint="Nombre de Usuario" VerticalAlignment="Center" x:Name="txtNombreUsuario" Margin="5" Width="250" PreviewKeyDown="txtNombreUsuario_PreviewKeyDown" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Key" Margin="5" VerticalAlignment="Center"/>
+                <PasswordBox materialDesign:HintAssist.IsFloating="True"  materialDesign:HintAssist.Hint="Password" VerticalAlignment="Center" x:Name="txtPassword" Margin="5" Width="250" PreviewKeyDown="txtPassword_PreviewKeyDown" />
+            </StackPanel>
+            <StackPanel>
+                <materialDesign:PackIcon Kind="AspectRatio" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="100" MouseDoubleClick="click_llamarContra"/>
+                <Label x:Name="lblcorreo" HorizontalAlignment="Center" >Ha olvidado su contrasena?</Label>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button x:Name="btnIngresar" Content="Ingresar" Width="90" Foreground="White" VerticalAlignment="Center" Background="#aa2100" Margin="10,20" BorderBrush="Orange" Click="btnIngresar_Click" />
+                <Button x:Name="btnSalir" Click="btnSalir_Click" Content="Salir" Width="90" Foreground="White" VerticalAlignment="Center" Background="#aa2100" Margin="10,20" BorderBrush="Orange" />
+            </StackPanel>
+            <materialDesign:Card x:Name="cardInfo" Margin="5" Width="auto" Height="50">
+                <TextBlock x:Name="tbkDetalle" Style="{DynamicResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center">Jamas revele su contraseña</TextBlock>
+            </materialDesign:Card>
+        </StackPanel>
+    </Grid>
+</Window>

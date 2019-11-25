@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPFAdmisnistracionDeBiblioteca.Usuario.WinContraseña"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAdmisnistracionDeBiblioteca.Usuario"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="WinContraseña" Height="250" Width="350">
+    <Grid>
+        <StackPanel>
+            <Grid Background="#861200" Height="50" VerticalAlignment="Top">
+                <TextBlock FontSize="24" Foreground="White" FontWeight="Bold" Margin="0 10 0 0 " VerticalAlignment="Center"  HorizontalAlignment="Center">Cambiar Contraseña</TextBlock>
+                <Button ToolTip="Cerrar Ventana" x:Name="btnClose" Width="30" Height="50" Click="btnClose_Click" HorizontalAlignment="Right" Padding="0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
+                    <materialDesign:PackIcon Foreground="White" Kind="Close" Width="30" Height="30"/>
+                </Button>
+
+            </Grid>
+
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Email" Margin="5" VerticalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.IsFloating="True"  materialDesign:HintAssist.Hint="Correo" VerticalAlignment="Center" x:Name="txtCorreo" Margin="5" Width="250" PreviewKeyDown="txtPassword_PreviewKeyDown" />
+            </StackPanel>
+       
+            
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button x:Name="btnCambiarContraseña" Content="Enviar" Width="90" Foreground="White" VerticalAlignment="Center" Background="#aa2100" Margin="10,20" BorderBrush="Orange" Click="btnCambiarContraseña_Click" />
+
+            </StackPanel>
+            <StackPanel>
+                <Label x:Name="lblcorreo" HorizontalAlignment="Center" >mensaje</Label>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

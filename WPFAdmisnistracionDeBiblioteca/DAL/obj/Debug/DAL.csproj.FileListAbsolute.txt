@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\bin\Debug\DAL.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\bin\Debug\DAL.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\bin\Debug\Common.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\bin\Debug\Common.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\obj\Debug\DAL.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\DAL\obj\Debug\DAL.pdb

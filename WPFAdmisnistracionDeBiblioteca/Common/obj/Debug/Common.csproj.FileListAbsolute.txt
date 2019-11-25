@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\bin\Debug\Common.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\bin\Debug\Common.pdb
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\obj\Debug\Common.dll
+C:\Users\USER\source\repos\WPFAdmisnistracionDeBiblioteca\Common\obj\Debug\Common.pdb
